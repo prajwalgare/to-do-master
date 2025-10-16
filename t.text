@@ -1,0 +1,23 @@
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Grid, Animations, Custom Properties)
+- Vanilla JavaScript (ES6+)
+- Font Awesome Icons
+- LocalStorage API
+
+## How to Use
+
+1. Open `index.html` in a web browser
+2. Add tasks using the input field
+3. Filter tasks using the filter buttons
+4. Select tasks from the stored tasks panel to perform batch operations
+5. Your tasks are automatically saved in your browser
+
+## Browser Compatibility
+
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge

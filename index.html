@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoMaster - Digital Task Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>To-do-Master</h1>
+                        <p>Digital Task Management</p>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="totalTasks">0</div>
+                        <div class="stat-label">Total</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="activeTasks">0</div>
+                        <div class="stat-label">Active</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="completedTasks">0</div>
+                        <div class="stat-label">Done</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="app-grid">
+            <div class="app-card">
+                <h2 class="card-title"><i class="fas fa-plus-circle"></i> Add New Task</h2>
+                
+                <div class="input-section">
+                    <input type="text" id="taskInput" placeholder="Enter a new task...">
+                    <button id="addBtn"><i class="fas fa-plus"></i> Add</button>
+                </div>
+                
+                <div class="filter-section">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-list"></i> All
+                    </button>
+                    <button class="filter-btn" data-filter="active">
+                        <i class="fas fa-clock"></i> Active
+                    </button>
+                    <button class="filter-btn" data-filter="completed">
+                        <i class="fas fa-check-circle"></i> Completed
+                    </button>
+                </div>
+                
+                <div class="tasks-container" id="tasksList">
+                    <div class="empty-state">
+                        <div class="empty-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h3>No tasks yet</h3>
+                        <p>Add a task above to get started!</p>
+                    </div>
+                </div>
+                
+                <div class="clear-section">
+                    <button id="clearCompleted">
+                        <i class="fas fa-trash-alt"></i> Clear Completed
+                    </button>
+                </div>
+            </div>
+            
+            <div class="app-card">
+                <h2 class="card-title"><i class="fas fa-database"></i> Stored Tasks</h2>
+                <p class="stored-tasks-description">Select a task to perform actions</p>
+                
+                <div class="stored-tasks-container" id="storedTasksList">
+                    <div class="empty-state">
+                        <div class="empty-icon">
+                            <i class="fas fa-archive"></i>
+                        </div>
+                        <h3>No stored tasks</h3>
+                        <p>Tasks you add will appear here</p>
+                    </div>
+                </div>
+                
+                <div class="stored-task-actions">
+                    <button id="completeSelected" class="action-btn complete-btn">
+                        <i class="fas fa-check"></i> Complete
+                    </button>
+                    <button id="deleteSelected" class="action-btn delete-btn">
+                        <i class="fas fa-trash"></i> Delete
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i> HTML5
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i> CSS3
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i> JavaScript
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
