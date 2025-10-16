@@ -4,6 +4,17 @@ A simple and responsive To-Do application built using **HTML, CSS, and JavaScrip
 
 ## 🚀 Live Demo
 👉 [View Live App](https://prajwalgare.github.io/to-do-master/)
+## 🖼️ Screenshots
+
+### 🏠 Homepage
+![App Screenshot](assets/screenshots/screenshot1.png)
+
+### ➕ Add Task View
+![Add Task Screenshot](assets/screenshots/screenshot2.png)
+
+### ✅ Completed Tasks View
+![Completed Tasks Screenshot](assets/screenshots/screenshot3.png)
+
 
 ## 🔧 Features
 - Add, edit, and delete tasks
