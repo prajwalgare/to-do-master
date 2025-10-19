@@ -2,10 +2,11 @@
 
 A simple and responsive To-Do application built using **HTML5, CSS3, and JavaScript**, featuring task creation, editing, deletion, filtering, and local persistence via LocalStorage.
 
-## 🚀 Live Demo : (https://github.com/prajwalgare/to-do-master.git)
+## 🚀 Live Demo : 
+(https://github.com/prajwalgare/to-do-master.git)
 
 ### Viewpage To-do-Master/enter a new task
-App Screenshot (assets/screenshots/screenshot1.png)
+![App Screenshot](assets/screenshots/screenshot1.png)
 
 ## 🔧 Features
 - Add, edit, and delete tasks
